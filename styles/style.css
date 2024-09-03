@@ -85,5 +85,9 @@ h4{
 section{
   padding: 5em;
 }
+.bold{
+  font-weight: bold;
+  font-size: 1.3em;
+}
 
 
