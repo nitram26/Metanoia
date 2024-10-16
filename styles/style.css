@@ -86,5 +86,22 @@ section{
   color: blue;
   font-size: 1.5em;
 }
+.a{
+  border: brown 2px solid;
+  padding: 0.5em;
+  margin-right: 1em;
+}
+.control{
+  border: brown 4px double;
+  padding: 1em;
+}
+.div{
+  display: contents;
+}
+
+.var{
+  background-color: peru;
+  color: white;
+}
 
 
