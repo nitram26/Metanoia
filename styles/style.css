@@ -104,4 +104,12 @@ section{
   color: white;
 }
 
+.select{
+  border: brown 1px solid;
+  font-size: 1.2em;
+  width: 90%;
+  margin: 0.4em;
+  padding: 0.3em;
+}
+
 
