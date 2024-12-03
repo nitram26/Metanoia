@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
-    <title>ORDEN CARMELITA SEGLAR</title>
-  </head>
-<!-- //////////////////////////////////////////////////////////////// -->
-  <body>
-    <p id="alInicio" class="principio"></p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>FORMACIÓN</title>
+</head>
+<body>
+  <p id="alInicio" class="principio"></p>
     <header>
-
       <div class="container">
-        <p class="logo"> CRISTO SALVADOR
-<!-- *************************************************************** -->
-          <a href="#alInicio"><img src="media/ESCUDOCARM.png" alt="" class="logoC"></a>
-          <a href="euangelium/01formacion.html" class="a">APOLOGÍA </a>
-          <a href="noviciado/01formacion.html" class="a">FORMACIÓN </a>
+        <p class="logo"> CRISTO SALVADOR</p>
+        <!-- ****************************************************** -->
+        <a href="#alInicio"><img src="../media/ESCUDOCARM.png" alt="" class="logoC"></a>
+        <a href="euangelium/01formacion.html" class="nombre">APOLOGÍA </a>
+        <a href="noviciado/01formacion.html" class="nombre">FORMACIÓN </a>
+      </div>
+    </header> <br><br>
+    <!-- *************************************************************************** -->
+
+        
       </div>
     </header>
 <!-- ************************************************************** -->
@@ -39,9 +40,18 @@
         </div>
       </div>
     </section> <br></br>
-    <footer class="footer">
-      <h2>ORDEN CARMELITA SEGLAR-PUCUSANA 2024</h2>
-    </footer>
+    <!-- ******************************************************** -->
+    <section>
+      <footer class="footer">
+        <footer>
+          <h3>&copy;  ORDEN CARMELITA SEGLAR-PUCUSANA <span id="year"></span></h3>
+        </footer>
+        <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
+  </footer>
+</section>
 
 <!-- ///////////////////////////////////////////////////////// -->
   </body>

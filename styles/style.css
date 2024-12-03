@@ -2,6 +2,10 @@ body{
   background-color: antiquewhite;
 }
 
+
+/* ///////////////////////////////////////////////////////// */
+
+
 .li{
   border: 1px solid brown;
   width: 25em;
@@ -31,6 +35,11 @@ ol{
   flex-direction: row;
   */
 }
+
+.contenedor{
+  margin: 4%;
+}
+
 
 .logo{
   margin: 1em;
@@ -93,11 +102,7 @@ section{
   color: blue;
   font-size: 1.2em;
 }
-.a{
-  border: brown 2px solid;
-  padding: 0.5em;
-  margin-right: 1em;
-}
+
 .control{
   border: brown 4px double;
   padding: 1em;
@@ -123,6 +128,12 @@ summary{
   color: brown;
   font-style: italic;
   font-weight: bold;
+}
+
+.footer{
+  border: peru 4px double;
+  text-align: center;
+  border-radius: 1em;
 }
 
 
