@@ -15,6 +15,11 @@ body{
   padding-left: 0.5em;
 }
 
+.li>a{
+  text-decoration: none;
+  color: blue;
+}
+
 ol{
   margin-left: 1em;
 }
