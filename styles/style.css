@@ -141,4 +141,9 @@ summary{
   border-radius: 1em;
 }
 
+.tabla, th, td{
+  border: 1px solid brown;
+  padding: 0.4em;
+}
+
 
