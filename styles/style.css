@@ -146,4 +146,16 @@ summary{
   padding: 0.4em;
 }
 
+.negras{
+  color: blue;
+  margin-left: 2em;
+  font-size: 1.5em;
+}
 
+.blancas{
+  font-size: 1.5em;
+}
+
+.coment{
+  padding-left: 4em;
+}
