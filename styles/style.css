@@ -160,3 +160,25 @@ summary{
   padding-left: 4em;
 }
 
+.do{
+  font-weight: bold;
+}
+
+.select>ol>li{
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.hora{
+  color: green;
+
+}
