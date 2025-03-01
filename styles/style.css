@@ -149,11 +149,11 @@ summary{
 .negras{
   color: blue;
   margin-left: 2em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .blancas{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .coment{
@@ -181,4 +181,33 @@ input[type="checkbox"] {
 .hora{
   color: green;
 
+}
+
+.master{
+  display: flex;
+}
+.uno{
+  border-right: 1px solid brown;
+  margin-right: 1em;
+  padding-right: 1em;
+}
+.dos{
+  border-right: 1px solid brown;
+  margin-right: 1em;
+  padding-right: 1em;
+}
+.tres{
+  border-right: 1px solid brown;
+  margin-right: 1em;
+  padding-right: 1em;
+}
+.cuatro{
+  border-right: 1px solid brown;
+  margin-right: 1em;
+  padding-right: 1em;
+}
+.cinco{
+  border-right: 1px solid brown;
+  margin-right: 1em;
+  padding-right: 1em;
 }
