@@ -211,3 +211,19 @@ input[type="checkbox"] {
   margin-right: 1em;
   padding-right: 1em;
 }
+
+.boton{
+  background-color: brown;
+  color: white;
+  margin-left: 40%;
+  width: 9em;
+  height: 2.5em;
+  border-radius: 1em;
+  margin-top: 1.5em;
+}
+
+.tab{
+  border-bottom: 1px brown solid;
+  margin: 0.5em;
+  color: brown;
+}
