@@ -1,57 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tareas con Check</title>
-    <style>
-      
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        input[type="checkbox"] {
-            margin-right: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-
-    <h2>Lista de Tareas</h2>
-    <ul id="taskList">
-        <li><input type="checkbox" data-id="ajedrez"> Ajedrez</li>
-        <li><input type="checkbox" data-id="apologia"> Apología</li>
-        <li><input type="checkbox" data-id="canto"> Canto</li>
-        <li><input type="checkbox" data-id="cocina"> Cocina</li>
-        <li><input type="checkbox" data-id="corpus"> Corpus</li>
-        <li><input type="checkbox" data-id="fisica"> Física</li>
-        <li><input type="checkbox" data-id="idioma"> Idioma</li>
-        <li><input type="checkbox" data-id="peliculas"> Películas</li>
-        <li><input type="checkbox" data-id="programacion"> Programación</li>
-        <li><input type="checkbox" data-id="musica"> Música</li>
- 
-    </ul>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const checkboxes = document.querySelectorAll("input[type='checkbox']");
-
-            // Cargar estado guardado de cada checkbox
-            checkboxes.forEach(checkbox => {
-                const id = checkbox.getAttribute("data-id");
-                const isChecked = localStorage.getItem(id) === "true";
-                checkbox.checked = isChecked;
-
-                // Guardar cambios en localStorage cuando se marque/desmarque
-                checkbox.addEventListener("change", function () {
-                    localStorage.setItem(id, this.checked);
-                });
-            });
-        });
-    </script>
-
+  
 </body>
 </html>
