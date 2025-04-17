@@ -129,12 +129,14 @@ section{
   width: 90%;
   margin: 0.3em;
   padding: 0.2em;
+  margin-left: 1em;
 }
 
 summary{
   color: brown;
   font-style: italic;
   font-weight: bold;
+  margin-left: 1em;
 }
 
 .footer{
@@ -187,6 +189,10 @@ input[type="checkbox"] {
 
 .master{
   display: flex;
+}
+.cero{
+  display: flex;
+  margin-left: 1em;
 }
 .uno{
   border-right: 1px solid brown;
