@@ -139,6 +139,10 @@ summary{
   margin-left: 1em;
 }
 
+p{
+  margin-left: 1em;
+}
+
 .footer{
   border: peru 4px double;
   text-align: center;
