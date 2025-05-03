@@ -243,3 +243,11 @@ input[type="checkbox"] {
 .statio{
   margin-left: 2em;
 }
+
+.latin{
+  color: brown;
+  font-size: 1.5em;
+  margin-left: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
